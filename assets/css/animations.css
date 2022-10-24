@@ -1,0 +1,81 @@
+/*====================  Header  ====================*/
+.menu__link:hover {
+   color: #2c7ba0;
+   transition: ease 0.6s;
+}
+
+/*==================================================*/
+
+/*====================  Hola Soy  ====================*/
+.presentation__item:hover {
+   /* animation: rotate-center 0.4s linear both; */
+   transform: scale(1.4);
+   transition: ease 0.8s;
+}
+
+@keyframes rotate-center {
+   0% {
+      transform: rotateY(0);
+   }
+   100% {
+      transform: rotateY(360deg);
+   }
+}
+
+.presentation__link:hover {
+   color: #0089c9;
+   transition: 0.4s;
+}
+
+.presentation__cv:hover {
+   background: #0089c9;
+   transform: scale(1.2);
+   transition: ease 1s;
+}
+
+
+.rotate-scale-up-vertical{animation:rotate-scale-up-vertical 0.4s linear both} @keyframes rotate-scale-up-vertical{0%{transform:scale(1) rotateY(0)}50%{transform:scale(2) rotateY(180deg)}100%{transform:scale(1) rotateY(360deg)}}
+/*====================================================*/
+
+/*====================  About Me  ====================*/
+/* .about__img {
+   animation:slide-bottom 6s linear infinite;
+} */
+
+@keyframes slide-bottom{
+   0%{transform:translateY(0)}
+   20%{transform:translateY(20px)}
+   40%{transform:translateY(30px)}
+   60%{transform:translateY(-10px)}
+   80%{transform:translateY(-20px)}
+   100%{transform:translateY(-30)}
+}
+/*====================================================*/
+
+/*====================  Skills  ====================*/
+.icon__img:hover {
+   animation:shake-left-right 0.8s infinite both;
+}
+
+@keyframes shake-left-right{0%,100%{transform:rotate(0deg);transform-origin:50% 50%}10%{transform:rotate(8deg)}20%,40%,60%{transform:rotate(-10deg)}30%,50%,70%{transform:rotate(10deg)}80%{transform:rotate(-8deg)}90%{transform:rotate(8deg)}}
+/*==================================================*/
+
+/*-- ====================  Proyectos  ==================== --*/
+.card__link:hover {
+   background: #1494cf;
+   color: #0c3d53;
+   transform: scale(1.1);
+   transition: ease .5s;
+}
+/*-- ===================================================== --*/
+
+/*-- ====================  Contact  ==================== --*/
+
+/*-- =================================================== --*/
+
+/*-- ====================  Footer  ==================== --*/
+.social__icon:hover {
+   color: #769db1;
+   transition: ease .5s;
+}
+/*-- ================================================== --*/

@@ -1,0 +1,700 @@
+
+@media screen and (max-width:1200px){
+   /* ====================  body  ==================== */
+   .container {
+      width: 90%;
+      margin: 0 5%;
+   }
+   /* ================================================== */
+
+   /* ====================  Hola Soy  ==================== */
+   .presentation {
+      margin-top: 6rem;
+   }
+
+   .presentation__textos {
+      width: 50%;
+   }
+
+   .presentation__nombre {
+      font-size: 3.1rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  About Me  ==================== */
+   .about__img {
+      justify-content: space-around;
+      width: 22rem;
+   }
+   /* ==================================================== */
+
+   /*-- ====================  Contact  ==================== --*/
+   .contact__img {
+      width: 24rem;
+   }
+
+   input, textarea {
+      max-width: 100%;
+      width: 22rem;
+      height: 2rem;
+   }
+
+   textarea {
+      height: 8rem;
+      padding-top: 1rem;
+   }
+   /*-- =================================================== --*/
+
+}
+
+
+@media screen and (max-width:900px) {
+   /*-- ====================  Contact  ==================== --*/
+   .contact__title {
+      font-size: 2.5rem;
+   }
+
+   .contact__img {
+      width: 18rem;
+   }
+
+   input, textarea {
+      max-width: 100%;
+      width: 19rem;
+      height: 2rem;
+   }
+
+   textarea {
+      height: 8rem;
+      padding-top: 1rem;
+   }
+   /*-- =================================================== --*/
+}
+
+
+@media screen and (min-width: 768px){
+   .about__img {
+      animation:slide-bottom 6s linear infinite;
+   }
+
+   .contact__img {
+      animation:slide-bottom 6s linear infinite;
+   }
+}
+
+@media screen and (max-width:768px) {
+   /* ====================  body  ==================== */
+   .container {
+      width: 90%;
+      margin: 0 5%;
+   }
+   /* ====================================================== */
+
+   /* ====================  Header  ==================== */
+   .menu__link {
+      padding-left: 1.2rem;
+   }
+   /* ================================================== */
+
+   /* ====================  Hola Soy  ==================== */
+   .presentation {
+      margin-top: 4rem;
+   }
+
+   .presentation__textos {
+      width: 50%;
+   }
+
+   .presentation__nombre {
+      font-size: 2.6rem;
+   }
+
+   .presentation__description {
+      font-size: 1rem;
+   }
+
+   .presentation__list {
+      margin-top: 1.4rem;
+   }
+
+   .presentation__cv {
+      margin-top: 1.4rem
+   }
+
+   .foto {
+      width: 18rem;
+      height: 18rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  About Me  ==================== */
+   .about__img {
+      width: 18rem;
+   }
+
+   .about__title {
+      font-size: 2.4rem;
+      margin-bottom: 4rem;
+   }
+
+   .about__description {
+      font-size: 1rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  Skills  ==================== */
+   .skills__title{
+font-size: 2.4rem;
+   }
+
+   .icon__img {
+      width: 4rem;
+   }
+   /* ================================================== */
+
+   /* ====================  Forma academica  ==================== */
+   .study__title {
+      font-size: 2.2rem;
+   }
+
+   .study__img {
+      width: 8rem;
+   }
+
+   .study__info__title {
+      font-size: 1.5rem;
+   }
+
+   .study__description {
+      font-size: 1rem;
+   }
+   /* =========================================================== */
+
+   /*-- ====================  Proyectos  ==================== --*/
+   .project .project__title {
+      font-size: 2.4rem;
+   }
+   /*-- ===================================================== --*/
+
+   /*-- ====================  Contact  ==================== --*/
+   .contact__title {
+      font-size: 2.5rem;
+   }
+
+   .contact__img {
+      width: 18rem;
+   }
+
+   input, textarea {
+      max-width: 100%;
+      width: 19rem;
+      height: 2rem;
+   }
+
+   textarea {
+      height: 8rem;
+      padding-top: 1rem;
+   }
+   /*-- =================================================== --*/
+
+   /*-- ====================  Footer  ==================== --*/
+   footer {
+      height: 6rem;
+   }
+
+   .social__item {
+      padding-left: 0;
+      margin-top: .5rem;
+      width: 40%;
+   }
+
+   .social__icon {
+      font-size: 3rem;
+   }
+
+   .footer__text {
+      font-size: .6rem;
+   }
+   /*-- ================================================== --*/
+}
+
+
+@media screen and (max-width:600px) {
+   /* ====================  body  ==================== */
+   .container {
+      width: 98%;
+      margin: 0 2%;
+   }
+   /* ====================================================== */
+
+   /* ====================  Header  ==================== */
+   header {
+      flex-direction: column;
+   }
+
+   .logo {
+      /* max-width: 100%;
+      width: 60px; */
+      display: none;
+   }
+
+   .menu__link {
+      padding-left: .2rem;
+   }
+   /* ================================================== */
+
+   /* ====================  Hola Soy  ==================== */
+   .presentation {
+      margin-top: 2rem;
+      margin-right: 1.2rem;
+      flex-direction: column-reverse;
+   }
+
+   .presentation__textos {
+      width: 80%;
+   }
+
+   .presentation__nombre {
+      font-size: 2rem;
+   }
+
+   .presentation__description {
+      font-size: 1rem;
+   }
+
+   .presentation__list {
+      margin-top: 1.5rem;
+      margin-right: 2rem;
+   }
+
+   .presentation__link {
+      font-size: 3rem;
+   }
+
+   .presentation__cv {
+      margin-top: 2rem;
+   }
+
+   .foto {
+      width: 16rem;
+      height: 16rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  About Me  ==================== */
+
+   .about__container {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding-top: 4rem;
+   }
+
+   .about__me {
+      margin-top: 4rem;
+      width: 90%;
+   }
+
+   .about__img {
+      width: 18rem;
+      margin-top: 4rem;
+   }
+
+   .about__title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      padding-top: 3rem;
+   }
+
+   .about__description {
+      font-size: 1rem;
+      margin-top: 2rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  Skills  ==================== */
+   .skills__container {
+      height: 65vh;
+   }
+
+   .icons__container {
+      width: 80%;
+      padding-left: 1.2rem;
+   }
+
+   .skills__title{
+      font-size: 2.4rem;
+
+   }
+
+   .icon__img {
+      width: 3rem;
+   }
+   /* ================================================== */
+
+   /* ====================  Forma academica  ==================== */
+   .study__container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 4rem;
+   }
+
+   .study__info {
+      margin-left: auto;
+      margin-right: 6rem;
+      padding-top: .5rem;
+   }
+
+   .study__title {
+      font-size: 1.6rem;
+   }
+
+   .study__img {
+      width: 8rem;
+   }
+
+   .study__info__title {
+      font-size: 1.5rem;
+   }
+
+   .study__description {
+      font-size: 1rem;
+   }
+   /* =========================================================== */
+
+   /*-- ====================  Proyectos  ==================== --*/
+   .project .project__title {
+      font-size: 2.4rem;
+   }
+   /*-- ===================================================== --*/
+
+   /*-- ====================  Contact  ==================== --*/
+   .contact {
+      margin-top: 3rem;
+      height: 88vh;
+   }
+
+   .contact__title {
+      font-size: 2.2rem;
+      text-align: center;
+   }
+
+   .contact__container {
+      flex-direction: column;
+      align-items: center;
+
+}
+
+   .contact__img {
+      width: 12rem;
+   }
+
+   form {
+      width: 80%;
+
+   }
+
+   input, textarea {
+      max-width: 100%;
+      width: 28rem;
+      height: 2rem;
+      margin-top: 1rem;
+   }
+
+   textarea {
+      height: 8rem;
+      padding-top: 1rem;
+   }
+
+   /*-- =================================================== --*/
+
+   /*-- ====================  Footer  ==================== --*/
+   footer {
+      margin-top: 0;
+      height: 5rem;
+   }
+
+   .social__container {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .social__item {
+      padding-left: 0;
+      margin-top: .6rem;
+      width: 40%;
+   }
+
+   .social__icon {
+      font-size: 2rem;
+   }
+
+   .footer__text {
+      font-size: .6rem;
+   }
+   /*-- ================================================== --*/
+}
+
+
+@media screen and (max-width:380px) {
+   /* ====================  body  ==================== */
+   .container {
+      width: 98%;
+      margin: 0 2%;
+   }
+   /* ====================================================== */
+
+   /* ====================  Header  ==================== */
+   header {
+      flex-direction: column;
+   }
+
+   .logo {
+      /* max-width: 100%;
+      width: 60px; */
+      display: none;
+   }
+
+   .menu__link {
+      padding-left: .2rem;
+   }
+   /* ================================================== */
+
+   /* ====================  Hola Soy  ==================== */
+   .presentation {
+      margin-top: 2rem;
+      margin-right: 1.2rem;
+      flex-direction: column-reverse;
+   }
+
+   .presentation__textos {
+      width: 80%;
+   }
+
+   .presentation__nombre {
+      font-size: 2rem;
+   }
+
+   .presentation__description {
+      font-size: 1rem;
+   }
+
+   .presentation__list {
+      margin-top: 1.5rem;
+      margin-right: 2rem;
+   }
+
+   .presentation__link {
+      font-size: 3rem;
+   }
+
+   .presentation__cv {
+      margin-top: 2rem;
+   }
+
+   .foto {
+      width: 16rem;
+      height: 16rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  About Me  ==================== */
+
+   .about__container {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+   }
+
+   .about__me {
+      margin-top: 2rem;
+      width: 90%;
+   }
+
+   .about__img {
+      width: 16rem;
+      margin-top: 2rem;
+   }
+
+   .about__title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      padding-top: 3rem;
+   }
+
+   .about__description {
+      font-size: 1rem;
+      margin-top: 2rem;
+   }
+   /* ==================================================== */
+
+   /* ====================  Skills  ==================== */
+   .skills__container {
+      height: 65vh;
+      margin-top: 1rem;
+   }
+
+   .icons__container {
+      width: 80%;
+      padding-left: 1.2rem;
+   }
+
+   .skills__title{
+      font-size: 2.4rem;
+      padding-top: 4rem;
+   }
+
+   .icon__img {
+      width: 3rem;
+   }
+   /* ================================================== */
+
+   /* ====================  Forma academica  ==================== */
+   .study__container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 4rem;
+   }
+
+   .study__info {
+
+      text-align: center;
+      padding-top: .5rem;
+      width: 90%;
+      margin: 0 auto;
+   }
+
+   .study__title {
+      font-size: 1.6rem;
+
+   }
+
+   .study__img {
+      width: 8rem;
+   }
+
+   .study__info__title {
+      font-size: 1.5rem;
+      margin-left: 0;
+   }
+
+   .study__description {
+      font-size: 1rem;
+      margin-left: 0;
+   }
+   /* =========================================================== */
+
+   /*-- ====================  Proyectos  ==================== --*/
+   .project .project__title {
+      font-size: 2.4rem;
+   }
+   /*-- ===================================================== --*/
+
+   /*-- ====================  Contact  ==================== --*/
+   .contact {
+      margin-top: 3rem;
+      height: 100vh;
+   }
+
+   .contact__title {
+      font-size: 2.2rem;
+      text-align: center;
+   }
+
+   .contact__container {
+      flex-direction: column;
+      align-items: center;
+
+}
+
+   .contact__img {
+      width: 12rem;
+   }
+
+   form {
+      width: 80%;
+
+   }
+
+   input, textarea {
+      max-width: 100%;
+      width: 28rem;
+      height: 2rem;
+      margin-top: 1rem;
+   }
+
+   textarea {
+      height: 8rem;
+      padding-top: 1rem;
+   }
+
+   /*-- =================================================== --*/
+
+   /*-- ====================  Footer  ==================== --*/
+   footer {
+      margin-top: 0;
+      height: 5rem;
+   }
+
+   .social__container {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .social__item {
+      padding-left: 0;
+      margin-top: .6rem;
+      width: 40%;
+   }
+
+   .social__icon {
+      font-size: 2rem;
+   }
+
+   .footer__text {
+      font-size: .6rem;
+   }
+   /*-- ================================================== --*/
+}
+
+
+
+
+
+/* ====================  Scroll Bar  ==================== */
+
+/* ====================================================== */
+
+/* ====================  Header  ==================== */
+
+/* ================================================== */
+
+/* ====================  Hola Soy  ==================== */
+/* ==================================================== */
+
+/* ====================  About Me  ==================== */
+/* ==================================================== */
+
+/* ====================  Skills  ==================== */
+/* ================================================== */
+
+/* ====================  Forma academica  ==================== */
+/* =========================================================== */
+
+/*-- ====================  Proyectos  ==================== --*/
+/*-- ===================================================== --*/
+
+/*-- ====================  Contact  ==================== --*/
+/*-- =================================================== --*/
+
+/*-- ====================  Footer  ==================== --*/
+/*-- ================================================== --*/
